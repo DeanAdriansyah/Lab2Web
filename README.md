@@ -11,14 +11,14 @@ Untuk dapat menginstall Xampp kalian dapat menggunakan link ini https://www.apac
 
 Setelah itu kalian dapat melakukan Extract File tersebut dengan menyesuaikan lokasi penyimpanannya seperti gambar dibawah.
 
-![menambahkan_gambar](img/INSTALL%20XAMPP.png)
+![menambahkan_gambar](img/install_xampp.png)
 
 
 ## PROSES MENJALANKAN XAMPP
 
 Untuk dapat menjalankan Xampp ini kalian perlu membukanya terlebih dulu, setelah itu kalian klik tombol start pada bagian server Apache, dan tampilan utama Xampp seperti gambar dibaawah ini jika berhasil.
 
-![menambahkan_gambar](img/XAMPP%20RUNNING.png)
+![menambahkan_gambar](img/xampp_control.png)
 
 
 ## MEMULAI PHP
