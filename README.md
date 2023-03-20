@@ -1,6 +1,6 @@
 # PEMOGRAMAAN WEB
 
-Diyan Arum Maheswari (312010133)
+Dean Adriansyah Asy'ari (312110286)
 
 Teknik Informatika - UNIVERSITAS PELITA BANGSA
 ______________________________________________
