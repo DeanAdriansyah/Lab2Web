@@ -23,11 +23,11 @@ Untuk dapat menjalankan Xampp ini kalian perlu membukanya terlebih dulu, setelah
 
 ## MEMULAI PHP
 
-Pertama, buatlah folder Lab7_php_dasar pada root directory web server (c:xampp/htdocs)
+Pertama, buatlah folder "Web2 p3" pada root directory web server (c:xampp/htdocs)
 
 ![menambahkan_gambar](img/memulai_php.png)
 
-Setelahnya kalian dapat mengakses directory pada web server seperti gambar dibawah dengan menggunakan URL : http://localhost:8080/Lab7Web/Lab7_php_dasar/
+Setelahnya kalian dapat mengakses directory pada web server seperti gambar dibawah dengan menggunakan URL : http://localhost/Web2%20p3/Lab2Web/
 
 ![menambahkan_gambar](img/localhost.png)
 
@@ -64,8 +64,8 @@ Untuk mendapatkan tampilan seperti diatas kalian bisa menambahkan kode berikut:
 <!-- Variabel PHP -->
 <h2>Menggunakan Variabel</h2>
     <?php
-        $nim = "312010133";
-        $nama = 'Diyan Arum Maheswari';
+        $nim = "312110286";
+        $nama = 'Dean Adriansyah Asyari';
         echo "NIM : " . $nim . "<br>";
         echo "Nama : $nama";
     ?>
@@ -73,7 +73,7 @@ Untuk mendapatkan tampilan seperti diatas kalian bisa menambahkan kode berikut:
 
 ## PREDEFINE $_GET
 
-Buatlah file baru dalam Directory Lab_php_dasar dengan nama file disini saya namakan dengan Lat1.php dan untuk mengaksesnya dapat menggunakan URL : http://localhost:8080/Lab7Web/Lab7_php_dasar/Lat1.php?nama=%20Diyanarum
+Buatlah file baru dalam Directory Lab2Web dengan nama file disini saya namakan dengan predefine.php dan untuk mengaksesnya dapat menggunakan URL : http://localhost/Web2%20p3/Lab2Web/predefine.php/
 
 ![menambahkan_gambar](img/predefine.png)
 
@@ -102,7 +102,7 @@ Berikut kode yang digunakan:
 
 ![menambahkan_gambar](img/form_input.png)
 
-Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya namakan Lat2.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
+Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya namakan form_input.php dalam directory Lab2Web. Kemudian tambahkan kode berikut:
 
 ```php
 <!DOCTYPE html>
@@ -129,7 +129,7 @@ Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya n
 
 ![menambahkan_gambar](img/operator.png)
 
-Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya namakan Lat3.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
+Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya namakan operator.php dalam directory Lab2Web. Kemudian tambahkan kode berikut:
 
 ```php
 <!DOCTYPE html>
@@ -156,7 +156,7 @@ Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya n
 
 ![menambahkan_gambar](img/kondisi_if.png)
 
-Untuk mendapat tampilan pengkondisian IF ELSE seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat4.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
+Untuk mendapat tampilan pengkondisian IF ELSE seperti diatas, buatlah file baru dengan nama file disini saya namakan kondisi_if.php dalam directory Lab2Web. Kemudian tambahkan kode berikut:
 
 ```php
 <!DOCTYPE html>
@@ -187,7 +187,7 @@ Untuk mendapat tampilan pengkondisian IF ELSE seperti diatas, buatlah file baru 
 
 ![menambahkan_gambar](img/kondisi_switch.png)
 
-Untuk mendapat tampilan pengkondisian SWITCH CASE dengan break seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat5.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
+Untuk mendapat tampilan pengkondisian SWITCH CASE dengan break seperti diatas, buatlah file baru dengan nama file disini saya namakan kondisi_switch.php dalam directory Lab2Web. Kemudian tambahkan kode berikut:
 
 ```php
 <h2>Kondisi Switch</h2>
@@ -214,7 +214,7 @@ Untuk mendapat tampilan pengkondisian SWITCH CASE dengan break seperti diatas, b
 
 ![menambahkan_gambar](img/perulangan_for.png)
 
-Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat6.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
+Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan perulangan_for.php dalam directory Lab2Web. Kemudian tambahkan kode berikut:
 
 ```php
 <!DOCTYPE html>
@@ -245,7 +245,7 @@ Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disin
 
 ![menambahkan_gambar](img/perulangan_while.png)
 
-Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat6.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
+Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan perulangan_while.php dalam directory Lab2Web. Kemudian tambahkan kode berikut:
 
 ```php
 <h2>Perulangan While</h2>
@@ -263,7 +263,7 @@ Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disin
 
 ![menambahkan_gambar](img/perulangan_dowhile.png)
 
-Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat6.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
+Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan perulangan_dowhile.php dalam directory Lab2Web. Kemudian tambahkan kode berikut:
 
 ```php
 <h2>Perulangan Dowhile</h2>
@@ -287,66 +287,71 @@ Note: Untuk kolom Tanggal Lahir gunakan format : 0000/00/00
 
 ```php
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas</title>
+    <title>Program PHP Sederhana</title>
 </head>
-<body>
-   <h2>TUGAS</h2>
-    <form class="form" method="post" >
-            <label>Nama: </label>
-            <br>
-            <input type="text" name="nama">
-            <br>
-            <label>Tanggal Lahir: </label>
-            <br>
-            <input type="text" name="tgl_lahir">
-            <br>
-            <label>Pekerjaan: </label>
-            <br>
-            <select name='pekerjaan'>
-                <option value="-">>---Pilih Pekerjaan---<</option>
-                <option value='Graphic Designer'>Graphic Designer</option>
-                <option value='Staff Admin'>Staff Admin</option>
-                <option value='HRD'>HRD</option>
-                <option value='Maintenance'>Maintenance</option>
-                <option value="QC">QC</option>
-            </select>
-            <br>
-            <br>
-            <button type="submit">Kirim</button>
+<body align=center>
+    <h1>Form Input</h1>
+    <h3>Masukkan data diri Anda<h3>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        Nama: <input type="text" name="nama"><br><br>
+        Tanggal Lahir: <input type="date" name="tgl_lahir"><br><br>
+        Pekerjaan: 
+        <select name="pekerjaan">
+            <option value="Programmer">Programmer</option>
+            <option value="Designer">Designer</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Office Boy">Office Boy</option>
+            <option value="Security">Security</option>
+        </select><br><br>
+        <input type="submit" name="submit" value="Submit">
     </form>
-    <h2>HASIL</h2>
+
     <?php
-        # Memanggil Nama
-        echo 'Nama: ' . $_POST['nama'];
-        # Merubah Tanggal Lahir menjadi Umur (Tahun)
-        $tgl_lahir = @$_POST['tgl_lahir'];
-        $lahir = new DateTime($tgl_lahir);
-        $hari_ini = new DateTime();
-        $diff = $hari_ini->diff($lahir);
-        # Memanggil fungsi umur yg sudah dibuat diatas
-        echo "<br> Umur: ". $diff->y ." Tahun";
-        # Memanggil pekerjaan
-        echo "<br> Pekerjaan: ". $_POST['pekerjaan'];
-        # Kondisi if pekerjaan untuk menentukan gaji
-        $pekerjaan = @$_POST['pekerjaan'];
-        if($pekerjaan == "Graphic Designer"){
-            echo '<br> Gaji: Rp. 15.000.000,-';
-        }elseif($pekerjaan == "Staff Admin"){
-            echo '<br> Gaji: Rp. 7.500.000,-';
-        }elseif($pekerjaan == "HRD"){
-            echo '<br> Gaji: Rp. 10.000.000,-';
-        }elseif($pekerjaan == "Maintenance"){
-            echo '<br> Gaji: Rp. 9.000.000,-';
-        }elseif ($pekerjaan == "QC"){
-            echo '<br> Gaji: Rp. 7.000.000,-';
+        // Cek apakah form sudah di-submit
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            // Ambil nilai dari form
+            $nama = $_POST["nama"];
+            $tgl_lahir = $_POST["tgl_lahir"];
+            $pekerjaan = $_POST["pekerjaan"];
+
+            // Menghitung umur berdasarkan tanggal lahir
+            $tgl_lahir_timestamp = strtotime($tgl_lahir);
+            $umur = date("Y") - date("Y", $tgl_lahir_timestamp);
+
+            // Menentukan gaji berdasarkan pekerjaan
+            switch ($pekerjaan) {
+                case "Programmer":
+                    $gaji = 15000000;
+                    break;
+                case "Designer":
+                    $gaji = 8000000;
+                    break;
+                case "Marketing":
+                    $gaji = 6000000;
+                    break;
+                case "Office Boy":
+                    $gaji = 2000000;
+                    break;
+                case "Security":
+                    $gaji = 3500000;
+                    break;
+                default:
+                    $gaji = 0;
+                    break;
+            }
+
+            // Menampilkan output
+            echo "<h2>Output</h2>";
+            echo "Nama: " . $nama . "<br>";
+            echo "Tanggal Lahir: " . $tgl_lahir . "<br>";
+            echo "Umur: " . $umur . " tahun<br>";
+            echo "Pekerjaan: " . $pekerjaan . "<br>";
+            echo "Gaji: Rp " . number_format($gaji, 0, ",", ".") . "<br>";
         }
     ?>
-  </body>
+</body>
 </html>
 ```
 
