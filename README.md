@@ -25,16 +25,16 @@ Untuk dapat menjalankan Xampp ini kalian perlu membukanya terlebih dulu, setelah
 
 Pertama, buatlah folder Lab7_php_dasar pada root directory web server (c:xampp/htdocs)
 
-![menambahkan_gambar](img/BIKIN%20FOLDER%20LAB7.png)
+![menambahkan_gambar](img/memulai_php.png)
 
 Setelahnya kalian dapat mengakses directory pada web server seperti gambar dibawah dengan menggunakan URL : http://localhost:8080/Lab7Web/Lab7_php_dasar/
 
-![menambahkan_gambar](img/CEK%20WEB%20SERVER.png)
+![menambahkan_gambar](img/localhost.png)
 
 
 ## PHP DASAR
 
-![menambahkan_gambar](img/PHP%20DASAR.png)
+![menambahkan_gambar](img/php_dasar.png)
 
 Untuk dapat mendapatkan tampilan seperti gambar diatas, buatlah file baru dengan nama php_dasar.php pada directory tersebut. Kemudian tambahkan kode berikut:
 
@@ -56,7 +56,7 @@ Untuk dapat mendapatkan tampilan seperti gambar diatas, buatlah file baru dengan
 
 ## VARIABLE PHP
 
-![menambahkan_gambar](img/VARIABLE%20PHP.png)
+![menambahkan_gambar](img/variable_php.png)
 
 Untuk mendapatkan tampilan seperti diatas kalian bisa menambahkan kode berikut:
 
@@ -75,7 +75,7 @@ Untuk mendapatkan tampilan seperti diatas kalian bisa menambahkan kode berikut:
 
 Buatlah file baru dalam Directory Lab_php_dasar dengan nama file disini saya namakan dengan Lat1.php dan untuk mengaksesnya dapat menggunakan URL : http://localhost:8080/Lab7Web/Lab7_php_dasar/Lat1.php?nama=%20Diyanarum
 
-![menambahkan_gambar](img/PREDEFINE.png)
+![menambahkan_gambar](img/predefine.png)
 
 Berikut kode yang digunakan:
 
@@ -100,7 +100,7 @@ Berikut kode yang digunakan:
 
 ## PEMBUATAN FORM INPUT DENGAN VARIABLE $_POST
 
-![menambahkan_gambar](img/FORM%20INPUT.png)
+![menambahkan_gambar](img/form_input.png)
 
 Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya namakan Lat2.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
 
@@ -127,7 +127,7 @@ Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya n
 
 ## OPERATOR
 
-![menambahkan_gambar](img/OPERATOR.png)
+![menambahkan_gambar](img/operator.png)
 
 Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya namakan Lat3.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
 
@@ -154,7 +154,7 @@ Untuk mendapat tampilan diatas, buatlah file baru dengan nama file disini saya n
 
 ## KONDISI IF
 
-![menambahkan_gambar](img/KONDISI%20IF.png)
+![menambahkan_gambar](img/kondisi_if.png)
 
 Untuk mendapat tampilan pengkondisian IF ELSE seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat4.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
 
@@ -185,7 +185,7 @@ Untuk mendapat tampilan pengkondisian IF ELSE seperti diatas, buatlah file baru 
 
 ## KONDISI SWITCH
 
-![menambahkan_gambar](img/KONDISI%20SWITCH.png)
+![menambahkan_gambar](img/kondisi_switch.png)
 
 Untuk mendapat tampilan pengkondisian SWITCH CASE dengan break seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat5.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
 
@@ -212,7 +212,7 @@ Untuk mendapat tampilan pengkondisian SWITCH CASE dengan break seperti diatas, b
 
 ## PERULANGAN FOR
 
-![menambahkan_gambar](img/PERULANGAN%20FOR.png)
+![menambahkan_gambar](img/perulangan_for.png)
 
 Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat6.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
 
@@ -243,7 +243,7 @@ Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disin
 
 ## PERULANGAN WHILE
 
-![menambahkan_gambar](img/PERULANGAN%20WHILE.png)
+![menambahkan_gambar](img/perulangan_while.png)
 
 Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat6.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
 
@@ -261,7 +261,7 @@ Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disin
 
 ## PERULANGAN DOWHILE
 
-![menambahkan_gambar](img/PERULANGAN%20DOWHILE.png)
+![menambahkan_gambar](img/perulangan_dowhile.png)
 
 Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disini saya namakan Lat6.php dalam directory Lab7_php_dasar. Kemudian tambahkan kode berikut:
 
@@ -281,7 +281,7 @@ Untuk mendapat tampilan seperti diatas, buatlah file baru dengan nama file disin
 
 Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nama , tanggal lahir dan pekerjaan . Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir . Dan pilihan pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.
 
-![menambahkan_gambar](img/TUGAS.png)
+![menambahkan_gambar](img/tugas_input.png)
 
 Note: Untuk kolom Tanggal Lahir gunakan format : 0000/00/00
 
@@ -350,4 +350,4 @@ Note: Untuk kolom Tanggal Lahir gunakan format : 0000/00/00
 </html>
 ```
 
-# <P align="center"> THANK'S FOR YOUR ATTENTION!! SEE YOU!!
+# <P align="center"> THANK YOU SO MUCH FOR YOUR ATTENTION!! SEE YOU!!
